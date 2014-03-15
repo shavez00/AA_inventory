@@ -9,8 +9,9 @@
     <body>
 		Is this an order for a new customer or an existing customer?
 		<br />
-		<form action="NewCustomer.html" method="POST"><input type="submit" value="New Customer"></form>
+		<form action="NewCustomer.html" method="GET"><input type="submit" value="New Customer"></form>
 		<form action="scripts/selectCustomerForOrder.php"><input type="submit" value="Existing Customer"></form><br />
+		<form action="scripts/invoiceReportSelection.php"><input type="submit" value="Invoice List"></form>
 		<?php
 			require_once('scripts/mysql_connect.php');
 
