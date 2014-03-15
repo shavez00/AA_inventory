@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html>
     <head>
-        <title>Awesome Ales Inventory Tracker 2</title>
+        <title>Awesome Ales Inventory Tracker</title>
 		<meta charset="utf-8">
 			<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 			<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
