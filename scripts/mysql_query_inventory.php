@@ -4,7 +4,7 @@
 	$custResult = mysql_query ("SELECT type, size, sum(qty) AS qty FROM inventory GROUP BY type, size");
 	while ($row = mysql_fetch_array($custResult)) {
 		$size[] = $row['size'];
-		$price[] = $row['price'];
+		//$price[] = $row['price'];
 		$qty[] = $row['qty'];
 		$type[] = $row['type'];
 	}
